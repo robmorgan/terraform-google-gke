@@ -1,0 +1,11 @@
+patches:
+  # Add argument will add a new argument to the module definition
+  - type: "add_argument"
+    name: "description"
+    value: "The default GKE cluster in the GCP Reference Architecture"
+    comment: "this comment will be added above the argument definition"
+
+  # Change value will update the argument's default value
+  - type: "change_value"
+    name: "initial_node_count"
+    value: 3
